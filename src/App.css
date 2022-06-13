@@ -104,13 +104,18 @@ html,body{
 
 
 
-@media (min-width: 480px){
+@media (max-width: 480px){
   .text{
-    display: flex;
-
-
+    
+    flex-direction: column;
+    overflow: hidden;
+    background-position:center;
+    
   }
-  
+  .text div{
+    width: 100vh;
+    }
+
   
 }
   
