@@ -38,17 +38,19 @@ position: absolute;
 }
 
 .search{
+  left:70px;
   height:100%;
   width:25%;
   display: flex;
   align-items: center;
   align-self: center;
   align-content: center;
-  justify-content: center;
+  justify-content: start;
   position: relative;
   text-align: center;
   top:center;
   margin-right: auto;
+  
 }
 .search-in{
   
@@ -69,7 +71,7 @@ position: absolute;
 }
 
 .text {
-  width:100%;
+  width:90%;
   height:100vh;
  
   font-family: 'Blaka';
@@ -161,7 +163,8 @@ position: absolute;
 
 @media (max-width: 480px){
   .text{
-    
+    top:50px;
+    height:95%;
     flex-direction: column;
     overflow: hidden;
     background-position:center;
@@ -170,7 +173,28 @@ position: absolute;
   .text div{
     width: 100vh;
     }
-
+    .upperSide{
+     
+      height: 10%;
+    }
+   
+   
+    .search{
+      justify-content: start;
+      position: fixed;
+      display: flex;
+      left:95px;
+      height:10%;
+      width:100%;
+      
+    }
+    .search-in{
+      width: 70%;
+      height: 40%;
+    }
+    .time{
+      display: none;
+    }
   
 }
   
